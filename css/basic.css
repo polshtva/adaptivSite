@@ -1,0 +1,51 @@
+:root {
+    --popins: "Poppins", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    font-family: var(--popins);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #1b1a1a;
+}
+
+.hints {
+    font-family: var(--popins);
+    font-weight: 400;
+    font-size: clamp(0.857rem, 0.821rem + 0.143vi, 1rem);
+    line-height: 143%;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #645c55;
+}
