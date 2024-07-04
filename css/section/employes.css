@@ -1,0 +1,42 @@
+.employes {
+    font-family: var(--poppins);
+    font-weight: 400;
+    padding: 100px 0 ;
+}
+.container {
+}
+.employes__contant {
+    display: flex;
+    justify-content: space-between;
+}
+.employes__desc {
+    max-width: 25%;
+}
+.employes__title {    
+    font-size: 32px;
+    line-height: 119%;
+    color: #403e3b;
+}
+.employes__text {
+    font-size: 15px;
+    line-height: 160%;
+    color: #645c55;
+    margin-top: 14px;
+    margin-bottom: 41px;
+}
+.link {
+}
+.employes__link {
+
+}
+
+.employes__person-data{
+    display: flex;
+    column-gap: 114px;
+}
+
+.employes__person-block{
+    display: flex;
+    flex-direction: column;
+    gap: 36px   ;
+}

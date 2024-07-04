@@ -49,3 +49,8 @@ a {
     text-transform: uppercase;
     color: #645c55;
 }
+
+p{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,30 @@
+.survey {
+    background-color: #CEC4BC;
+    padding: 112px 0px 88px 0px;
+}
+.container {
+}
+.survey__contant {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.survey__info {
+    max-width: 50%;
+}
+.hints {
+}
+.survey__hints {
+}
+.survey__title {
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 105%;
+    color: #1b1a1a;
+}
+.link {
+}
+.survey__link {
+}
